@@ -131,80 +131,51 @@ public class RedBall extends JComponent implements ActionListener, MouseMotionLi
 
         // Window Down 
         if (ballx >= paddlex && ballx <= paddlex + 100 && bally >= 475) {
-
             ballySpeed = -7;
             score++;
-
         }
-
         if (bally >= 700 ) {
-
             score = 0;
             bally = 30;
             gameOver = true;
-
         }
-
         // Window up
         if (bally <= 0) {
-
             ballySpeed = 7;
-
         }
 
         // Window right
         if (ballx >= 775) {
-
             ballxSpeed = -5;
-
         }
-
         // Window left
         if (ballx <= 0) {
-
             ballxSpeed = 5;
-
         }
-
         //**********************************************************************
         ballx1 = ballx1 + ballx1Speed;
         bally1 = bally1 + bally1Speed;
 
         // Window down
         if (ballx1 >= paddlex && ballx1 <= paddlex + 100 && bally1 >= 475) {
-
             bally1Speed = -14;
             score1++;
-
         }
-
         if (bally1 >= 700) {
-
             score1 = 0;
             bally1 = 10;
-
-
         }
-
         // Window up
         if (bally1 <= 0) {
-
             bally1Speed = 14;
-
         }
-
         // Window right
         if (ballx1 >= 775) {
-
             ballx1Speed = -10;
-
         }
-
         // Window left
         if (ballx1 <= 0) {
-
             ballx1Speed = 10;
-
         }
 
         //**********************************************************************

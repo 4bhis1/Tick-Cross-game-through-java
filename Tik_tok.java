@@ -51,28 +51,19 @@ public int tk=0;
                             ||ln=="o" && nln=="o" && rln=="o" || lln=="o" && nln=="o" && pln=="o" ){   
                         System.out.println("Cross wins");
                     JOptionPane.showMessageDialog(null,Player2+" wins");
-                    System.exit(0);
-                   
-               }
-               
-                
-               
-               
+                    System.exit(0);           
+               }   
                 if(msclc==9){
                     System.out.println("findsih");
-                    msclc=-1;
-                    tk++;
-                    
-                    
+                    msclc=-1;   
                     if(tk==10){
                         System.exit(0);
-                    }
-                        
+                    }       
                 }
                 
-    }
+            }
         }
-                );
+    );
  
     
     /**
